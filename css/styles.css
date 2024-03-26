@@ -1,0 +1,48 @@
+:root{
+    --color-brand-light: #819B57;
+    --color-brand-dark: #465929;
+    --color-prime-light: #FAF4EA;
+    --color-prime-dark: #31261A;
+    }
+/* Base */
+body{
+    color: var(--color-prime-dark);
+}
+ul{
+    list-style-type: none;
+}
+
+.button-main{
+    color: var(--color-prime-ligt);
+    background-color: var(--color-brand-light);
+    border: 2px solid var(--color-brand-light);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button-main:hover{
+    color:var(--color-brand-dark);
+    background-color: transparent;
+}
+.link{
+    color: var(--color-prime-ligt);
+}
+.link:hover {
+    color: var(--color-brand-light);
+}
+.hero-title{
+    color:var(--color-prime-ligt);
+}
+.hero-title .accent {
+    color: var(--color-brand-light);
+}
+.adventeges-list{
+    background-color: var(--color-brand-light);
+    color:var(--color-prime-ligt);
+}
+.section-title{
+    color: var(--color-prime-dark);
+}
+.section-title .accent{
+    color: var(--color-brand-dark);
+}
